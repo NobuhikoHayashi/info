@@ -1,0 +1,22 @@
+/*========= body背景色の変化CSS ===============*/
+
+ body{
+  animation: bgchange 120s ease infinite;/*変化の時間を変更したい場合は20sの部分を好きな時間に変更*/
+}
+
+@keyframes bgchange{
+      0%   {background:#ffffff;}/*変化させたい色*/
+      14.28%  {background:#eeeeff;}/*変化させたい色*/
+      28.57%  {background:#eeffee;}/*変化させたい色*/
+      42.85%  {background:#ffeeee;}/*変化させたい色*/
+      57.14%  {background:#eeeeff;}/*変化させたい色*/
+      71.42%  {background:#ffeeee;}/*変化させたい色*/
+     85.71%  {background:#eeffee;}/*変化させたい色*/
+      100%   {background:#ffffff;}/*変化させたい色*/
+ }
+
+
+
+
+
+Resources

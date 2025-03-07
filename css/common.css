@@ -6,7 +6,7 @@ html{
 }
 
 body{
-    font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+    font-family: "Arial", "ヒラギノ角ゴ ProN", "游ゴシック", sans-serif;
     color: #222;
     margin-left:10px;
     margin-right:10px;
@@ -30,6 +30,7 @@ h3{
 
 p{
     font-size: 90%;
+    font-name: "ヒラギノ角ゴ ProN W3";
 }
 
 li{
@@ -86,7 +87,7 @@ ul {
 /*----------ページ見出し----------------------------------------------------------------------*/
 .page_title{
     font-size: 100%;
-    max-width: 65em;
+    max-width: 72em;
     text-align : left;
     margin: auto;
     margin-top: 1%;
@@ -106,7 +107,7 @@ ul {
 
 /*----------作品リスト----------------------------------------------------------------------*/
 #works li{
-    max-width: 70em;
+    max-width: 80em; /*70*/
     margin: auto;
     line-height: 250%;
     font-weight: 100;
@@ -115,6 +116,9 @@ ul {
     text-overflow: ellipsis;
     padding-bottom: 1em;
 }
+#works i{
+    font-size: 110%;
+    }
 
 /*----------普通の文章----------------------------------------------------------------------*/
 /*↓無いとバグる*/
@@ -134,14 +138,14 @@ text{
 /*基本使わない　↑*/
 
 .text_pure{
-    max-width: 72em;
+    max-width: 80em; /*72*/
     margin: auto;
     line-height: 200%;
     font-weight: 100;
     text-align: left;
 }
 .text_right{
-    max-width: 72em;
+    max-width: 80em; /*72*/
     text-align : right;
     margin: auto;
     line-height: 200%;

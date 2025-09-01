@@ -10,6 +10,7 @@ body{
     color: #222;
     margin-left:10px;
     margin-right:10px;
+    font-weight: 200;
     /*background: #e29;*/
 }
 * {
@@ -30,7 +31,6 @@ h3{
 
 p{
     font-size: 90%;
-    font-name: "ヒラギノ角ゴ ProN W3";
 }
 
 li{

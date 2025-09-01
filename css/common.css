@@ -10,7 +10,6 @@ body{
     color: #222;
     margin-left:10px;
     margin-right:10px;
-    font-weight: 200;
     /*background: #e29;*/
 }
 * {
@@ -110,7 +109,7 @@ ul {
     max-width: 80em; /*70*/
     margin: auto;
     line-height: 250%;
-    font-weight: 100;
+    font-weight: 400;
     text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -131,7 +130,7 @@ text{
     /*text-align : left;*/
     margin: auto;
     line-height: 200%;
-    font-weight: 100;
+    font-weight: 400;
     text-align: justify;
 　text-justify: inter-ideograph;
 }
@@ -141,7 +140,7 @@ text{
     max-width: 80em; /*72*/
     margin: auto;
     line-height: 200%;
-    font-weight: 100;
+    font-weight: 400;
     text-align: left;
 }
 .text_right{
@@ -149,7 +148,7 @@ text{
     text-align : right;
     margin: auto;
     line-height: 200%;
-    font-weight: 100;
+    font-weight: 400;
 }
 .text_large{
     font-size: 110%;
@@ -157,7 +156,7 @@ text{
     text-align : left;
     margin: auto;
     line-height: 200%;
-    font-weight: 100;
+    font-weight: 400;
 }
 .small_text{
     font-size: 80%;
@@ -165,7 +164,7 @@ text{
    text-align : left;
     margin: auto;
     line-height: 200%;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 
